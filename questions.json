@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "category": "easy",
+    "title": "Which one of the following river flows between Vindhyan and Satpura ranges?",
+    "options": [
+      { "id": 1, "text": "Narmada", "isCorrect": true },
+      { "id": 2, "text": "Mahanadi", "isCorrect": false },
+      { "id": 3, "text": "Son", "isCorrect": false },
+      { "id": 4, "text": "Netravati", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "medium",
+    "title": "The Central Rice Research Station is situated in?",
+    "options": [
+      { "id": 1, "text": "Chennai", "isCorrect": false },
+      { "id": 2, "text": "Cuttack", "isCorrect": true },
+      { "id": 3, "text": "Bangalore", "isCorrect": false },
+      { "id": 4, "text": "Quilon", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "hard",
+    "title": "Who among the following wrote Sanskrit grammar?",
+    "options": [
+      { "id": 1, "text": "Kalidasa", "isCorrect": false },
+      { "id": 2, "text": "Charak", "isCorrect": false },
+      { "id": 3, "text": "Panini", "isCorrect": true },
+      { "id": 4, "text": "Aryabhatt", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "easy",
+    "title": "The metal whose salts are sensitive to light is?",
+    "options": [
+      { "id": 1, "text": "Zinc", "isCorrect": false },
+      { "id": 2, "text": "Silver", "isCorrect": true },
+      { "id": 3, "text": "Copper", "isCorrect": false },
+      { "id": 4, "text": "Aluminum", "isCorrect": false }
+    ]
+  }
+]

@@ -1,7 +1,24 @@
+import React, { useContext } from "react";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import Navbar from "../components/navbar";
+import Main from "../components/main";
+
+import { Context } from "../context/store";
+
+import Question from "../components/carousel/question";
 
 export default function Home() {
-  return <div>Hello World</div>;
+  const {
+    detail: { isLogin },
+  } = useContext(Context);
+
+  return (
+    <div className="bg-black font-inter h-screen text-white">
+      <Head>
+        <title>criz</title>
+      </Head>
+      <Navbar />
+      {!isLogin ? <Main /> : <Question />}
+    </div>
+  );
 }
